@@ -63,6 +63,16 @@ namespace SayimBirlestir.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap bodetails_32x32 {
+            get {
+                object obj = ResourceManager.GetObject("bodetails_32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap Entegref__1_ {
             get {
                 object obj = ResourceManager.GetObject("Entegref (1)", resourceCulture);
@@ -76,6 +86,16 @@ namespace SayimBirlestir.Properties {
         internal static System.Drawing.Bitmap excel {
             get {
                 object obj = ResourceManager.GetObject("excel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap question_32x32 {
+            get {
+                object obj = ResourceManager.GetObject("question_32x32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

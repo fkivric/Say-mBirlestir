@@ -106,5 +106,29 @@ namespace SayimBirlestir.Properties {
                 this["DbName"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Vol_SOENTERKEY {
+            get {
+                return ((string)(this["Vol_SOENTERKEY"]));
+            }
+            set {
+                this["Vol_SOENTERKEY"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Vol_SOCODE {
+            get {
+                return ((string)(this["Vol_SOCODE"]));
+            }
+            set {
+                this["Vol_SOCODE"] = value;
+            }
+        }
     }
 }

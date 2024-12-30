@@ -536,7 +536,7 @@
             this.Controls.Add(this.navigationFrame1);
             this.IconOptions.Image = global::SayimBirlestir.Properties.Resources.Entegref__1_;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Sayım Raporları";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();

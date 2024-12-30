@@ -198,14 +198,15 @@ namespace SayimBirlestir
             {
                 userID = yetki.Rows[0][0].ToString();
                 this.Hide();
-                Form1 main = new Form1();
+                frmMain main = new frmMain();
                 main.ShowDialog();
-                this.Close();
             }
             else
             {
                 XtraMessageBox.Show("Giriş Bilgilerinizi Kontrol Ediniz");
             }
+            this.Close();
+            this.Dispose();
         }
 
         private void simpleButton1_Click(object sender, EventArgs e)
